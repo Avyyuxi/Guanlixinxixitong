@@ -1,5 +1,5 @@
 # Guanlixinxixitong
-##Sql语句：
+## Sql语句：
 CREATE TABLE `person` (
   `保养人id` int(11) NOT NULL auto_increment,
   `保养人名称` varchar(45) NOT NULL,
@@ -61,4 +61,8 @@ SELECT b.设备id,b.设备类型id,b.最后保养时间
  WHERE a.设备id=b.设备id
  and b.设备类型id=c.类型名id
  and curdate()-b.最后保养时间<30
+  
+  Axure原型（项目名：维修保养 密码：123456）: 
+ http://vyjv9j.axshare.com <br>
+  ER图: http://pan.baidu.com/s/1kVJKIzl
  
